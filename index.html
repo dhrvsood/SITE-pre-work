@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Light and Sound Memory Game</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="/script.js" defer></script>
+  </head>
+  
+  <body>
+    <audio src="https://cdn.glitch.com/11707780-9282-4bbd-b19f-83a4e5c31cf4%2Fsin.mp3?v=1616594769985" id="sin"></audio>
+    <audio src="https://cdn.glitch.com/11707780-9282-4bbd-b19f-83a4e5c31cf4%2Fguitar.wav?v=1616600275682" id="guitar"></audio>
+    <audio src="https://cdn.glitch.com/11707780-9282-4bbd-b19f-83a4e5c31cf4%2Fpiano.wav?v=1616595668911" id="piano"></audio>
+    <audio src="https://cdn.glitch.com/11707780-9282-4bbd-b19f-83a4e5c31cf4%2Fflute.wav?v=1616595431714" id="flute"></audio>
+    <audio src="https://cdn.glitch.com/11707780-9282-4bbd-b19f-83a4e5c31cf4%2Fdog.wav?v=1616595633676" id="dog"></audio>
+    <h1>Light and Sound Memory Game</h1>
+    <p>Repeat the pattern back to win the game!</p>
+    
+    
+    <button id="startBtn" onclick="startGame()">Start</button>
+    <button id="stopBtn" class="hidden" onclick="stopGame()">Stop</button>
+    
+    <div id="gameButtonArea">
+      <button id="button1" onclick="guess(1)" onmousedown="startAudio(1)" onmouseup="stopAudio(1)"></button>
+      <button id="button2" onclick="guess(2)" onmousedown="startAudio(2)" onmouseup="stopAudio(2)"></button>
+      <button id="button3" onclick="guess(3)" onmousedown="startAudio(3)" onmouseup="stopAudio(3)"></button>
+      <button id="button4" onclick="guess(4)" onmousedown="startAudio(4)" onmouseup="stopAudio(4)"></button>
+      <button id="button5" onclick="guess(5)" onmousedown="startAudio(5)" onmouseup="stopAudio(5)"></button>
+    </div>
+    <p id="timeLeft"></p>
+  </body>
+</html>
