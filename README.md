@@ -42,17 +42,17 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 * Random Patterns
-![Random Patterns](https://imgur.com/a/6QCSN9N.gif)
+![Random Patterns](https://i.imgur.com/H2ZsvAQ.gif)
 <br>
 
 * Strikes
-![Strikes](https://imgur.com/a/PG2X8q1.gif)
+![Strikes](https://i.imgur.com/H2ZsvAQ.gif)
 
 * Timer
-![Timer](https://imgur.com/a/J2jw65M.gif)
+![Timer](https://i.imgur.com/H2ZsvAQ.gif)
 
 * Game end
-![Game end](https://imgur.com/a/4Bz4tnz.jpg)
+![Game end](https://i.imgur.com/aR5UTWU.png)
 
 
 ## Reflection Questions
